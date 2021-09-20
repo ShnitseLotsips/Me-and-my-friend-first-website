@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
+
+
+h1{
+    color: rgb(17, 153, 211);
+    text-align: left;
+    font-size: 3em;
+    font-family: Assistant;
+}
+
+h2{
+    color: rgb(17, 153, 211);
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Assistant;
+}
+
+h3{
+    color: rgb(25, 0, 255);
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Assistant;
+}
+
+h5{
+    color: white;
+    font-family: Assistant;
+    font-size: 2em;
+
+}
+
+body{
+    background-color: rgb(2, 13, 39);
+    margin: 0em;
+}
+
+.navbar{
+
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(6, 121, 197);
+    border-radius: 3em;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    margin: 0em;
+    text-decoration: none;
+    color:rgb(0, 37, 117);
+    font-size: 1.5em;
+    font-family: Assistant;
+    padding: 8px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar a.place{
+    color: rgb(45, 206, 255);
+    background-color: rgb(2, 13, 39);;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+.images img{
+    margin-bottom: 1em;
+}
+
+.X5{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    font-family: Assistant;
+    font-size: 1em;
+}
+
+.X5 label{
+    padding-right: 1em;
+}
+.contect{
+    display: flex;
+    flex-direction: column;
+    font-family: Assistant;
+    font-size: 2em;
+    color: white;
+    margin-left: 1em;
+}
+.contect input{
+    width: 10em;
+    box-sizing: border-box;
+    font-size: 1em;
+    
+}
+
+.contect .sub{
+    width: 20em;
+    font-size: 0.5em;
+    padding-bottom: 5em;
+}
+
+.contect .send{
+    margin: 3em;
+    box-sizing: border-box;
+    width: 5em;
+    font-size: 0.5em;
+    border-radius: 1em;
+    border: none;
+    margin-left:0 ;
+}
+
+.contect .send:hover{
+    background-color: black;
+    color: white;
+}
+
+ .clock1{
+    font-family: Assistant;
+    font-size: 1.5em;
+    color:rgb(4, 28, 80);
+    padding-left: 1em;
+    padding-right: 1em;
+}
